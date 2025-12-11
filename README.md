@@ -24,7 +24,7 @@ O usuário pode selecionar moedas diferentes, digitar um valor e visualizar a co
 </div>
 
 <h2>Screenshot</h2>
-<img src="" />
+<img src="https://github.com/vic530/Convert-Money/blob/main/assets/img/print.png?raw=true" />
 
 <div align="center">
   <a href="https://SEU_USUARIO.github.io/we-care" target="_blank">
