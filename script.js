@@ -11,16 +11,22 @@ const selectDestino = document.getElementById('currency-select-b');
 
 
 
-const cotacao = {
+
+
+
+const convertValues = async () => {
+
+    const data = await fetch("https://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL,GBP-BRL,BTC-BRL").then(resposta => resposta.json());
+    console.log(data)
+
+
+    const cotacao = {
     real: 1.00,
-    dolar: 5.25,
-    euro: 6.19,
-    libra: 7.30,
-    bitcon: 494175.56
+    dolar: data.USDBRL.high,
+    euro: data.EURBRL.high,
+    libra: data.GBPBRL.high,
+    bitcon: data.BTCBRL.high
 }
-
-
-function convertValues() {
 
     const valor = valorInput.value;
     const origem =  selectOrigem.value;
