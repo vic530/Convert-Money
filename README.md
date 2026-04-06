@@ -28,7 +28,7 @@ O usuário pode selecionar moedas diferentes, digitar um valor e visualizar a co
 
 <div align="center">
   <a href="https://vic530.github.io/Convert-Money/"  target="blank">
-    <img src="https://img.shields.io/badge/🔗 Acessar o Projeto-1E90FF?style=for-the-badge" alt="Acessar Projeto"/>
+    <img src="https://vic530.github.io/Convert-Money/ 🔗 Acessar o Projeto-1E90FF?style=for-the-badge" alt="Acessar Projeto"/>
   </a>   
 </div> 
 
