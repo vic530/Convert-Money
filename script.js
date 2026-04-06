@@ -21,7 +21,7 @@ const convertValues = async () => {
 
 
     const cotacao = {
-    real: 1.01,
+    real: 1.00,
     dolar: data.USDBRL.high,
     euro: data.EURBRL.high,
     libra: data.GBPBRL.high,
